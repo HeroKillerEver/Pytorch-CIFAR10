@@ -33,6 +33,7 @@ python main.py --help
 python main.py --models=densenet121 --gpu=0 --visible=0,1,2
 ```
 
+model will be saved in checkpoints/ 
 
 ## Author
 Haibin Yu [@HeroKillerEver](https://github.com/HeroKillerEver)
