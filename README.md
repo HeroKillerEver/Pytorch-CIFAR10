@@ -7,6 +7,7 @@ This repository implements popular CNN architectures on CIFAR 10 dataset using p
 ## Dependency
 
 [Pytorch (0.3.1)](http://pytorch.org/)
+
 [Python 2.7.12](https://www.python.org/)
 
 ## Results
