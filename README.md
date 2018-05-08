@@ -26,14 +26,19 @@ DenseNet201 | 95.50%
 
 ## Getting started 
 
-**need GPUS**
-
+### Train from scratch
 
 ```bash
 python main.py --help
 python main.py --models=densenet121 --gpu=0 --visible=0,1,2
 ```
 model will be saved in checkpoints/
+
+### Fine-tuning
+
+```bash
+python main.py --models=densenet121 --gpu=0 --visible=0,1,2 --resume
+```
 
 ## Pretrained Models
 
